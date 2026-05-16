@@ -1,0 +1,21 @@
+/* Reset default Vite styles — all theming is in styles/global.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #0a0a0f;
+  background-image: linear-gradient(rgba(10, 10, 15, 0.82), rgba(10, 10, 15, 0.82)), url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f1f1f8;
+  -webkit-font-smoothing: antialiased;
+}

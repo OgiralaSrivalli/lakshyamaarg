@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Lakshyamaarg — AI-powered career intelligence platform for Indian students. Discover your perfect career path with psychometric assessment and AI guidance." />
+  <title>Lakshyamaarg | AI Career Intelligence</title>
+</head>
+
+<body>
+  <!-- Google Translate Element (Hidden, managed via React LanguageSelector) -->
+  <div id="google_translate_element" style="position: absolute; left: -9999px;"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,te,ta,mr,bn,gu,kn,ml,pa,ur,or,as,mai,sa',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <style>
+    /* Hide all Google Translate UI */
+    .goog-te-combo,
+    .goog-logo-link,
+    .goog-te-gadget,
+    .skiptranslate iframe,
+    .goog-te-banner-frame.skiptranslate,
+    #goog-gt-tt,
+    .goog-tooltip,
+    .goog-tooltip:hover {
+      display: none !important;
+      opacity: 0 !important;
+      visibility: hidden !important;
+      color: transparent !important;
+    }
+
+    .goog-text-highlight {
+      background-color: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+
+    body {
+      top: 0px !important;
+    }
+  </style>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
