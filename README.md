@@ -71,8 +71,7 @@ npm run dev
 
 > **Dev note:** In `NODE_ENV=development`, OTP is returned in the API response for testing.
 > **output screenshot
-> <img width="1885" height="858" alt="Screenshot 2026-03-06 101135" src="https://github.com/user-attachments/assets/bcd10149-8850-428d-9250-0e4fde07e211" />
-<img width="1906" height="906" alt="Screenshot 2026-03-05 210708" src="https://github.com/user-attachments/assets/42360800-775e-4ac6-897c-32eacabe1009" />
+> 
 <img width="1917" height="839" alt="Screenshot 2026-02-26 141316" src="https://github.com/user-attachments/assets/df0e02f0-9d74-4f97-9c83-7c6b332ef59f" />
 <img width="1914" height="908" alt="Screenshot 2026-02-26 123452" src="https://github.com/user-attachments/assets/4f168953-a55e-44a2-a650-096e34c478e1" />
 
